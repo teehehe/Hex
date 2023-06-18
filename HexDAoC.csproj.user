@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\aHexCSharp\Hex\Properties\PublishProfiles\FolderProfile2.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="frmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCopy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmHotkeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmOAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmOEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTeamAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTeamEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Import.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

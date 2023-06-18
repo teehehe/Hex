@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PackageIcon>logo.png</PackageIcon>
+    <DebugType>none</DebugType>
+    <ApplicationIcon>HexNew.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="HexNew.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autoupdater.NET.Official" Version="1.7.0" />
+    <PackageReference Include="HotkeyListener" Version="1.9.0" />
+    <PackageReference Include="Krypton.Toolkit" Version="6.2201.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.0" Version="17.0.32112.339" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.2-mauipre.1.22054.8" />
+    <PackageReference Include="MySql.Data" Version="8.0.27" />
+    <PackageReference Include="NHotkey.WindowsForms" Version="2.1.0" />
+    <PackageReference Include="ObjectListView.Repack.Core3" Version="2.9.2" />
+    <PackageReference Include="System.Management" Version="6.0.2-mauipre.1.22054.8" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+    <PackageReference Include="TabControl" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="frmEdit.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
